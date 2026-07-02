@@ -1,0 +1,402 @@
+[
+  {
+    "page": 7,
+    "file": "/brochure/extracted/page-07/image-01.png",
+    "sourceName": "Im0.jp2",
+    "bytes": 417671,
+    "width": 509,
+    "height": 399
+  },
+  {
+    "page": 7,
+    "file": "/brochure/extracted/page-07/image-02.png",
+    "sourceName": "Im1.jp2",
+    "bytes": 417671,
+    "width": 509,
+    "height": 399
+  },
+  {
+    "page": 7,
+    "file": "/brochure/extracted/page-07/image-03.png",
+    "sourceName": "Im10.jp2",
+    "bytes": 361366,
+    "width": 400,
+    "height": 431
+  },
+  {
+    "page": 7,
+    "file": "/brochure/extracted/page-07/image-04.png",
+    "sourceName": "Im2.jp2",
+    "bytes": 438796,
+    "width": 464,
+    "height": 431
+  },
+  {
+    "page": 7,
+    "file": "/brochure/extracted/page-07/image-05.png",
+    "sourceName": "Im3.jp2",
+    "bytes": 473986,
+    "width": 462,
+    "height": 431
+  },
+  {
+    "page": 7,
+    "file": "/brochure/extracted/page-07/image-06.jpg",
+    "sourceName": "Im4.jpg",
+    "bytes": 123629,
+    "width": 630,
+    "height": 238
+  },
+  {
+    "page": 7,
+    "file": "/brochure/extracted/page-07/image-07.jpg",
+    "sourceName": "Im5.jpg",
+    "bytes": 55955,
+    "width": 630,
+    "height": 238
+  },
+  {
+    "page": 7,
+    "file": "/brochure/extracted/page-07/image-08.jpg",
+    "sourceName": "Im6.jpg",
+    "bytes": 29087,
+    "width": 630,
+    "height": 238
+  },
+  {
+    "page": 7,
+    "file": "/brochure/extracted/page-07/image-09.png",
+    "sourceName": "Im7.jp2",
+    "bytes": 351936,
+    "width": 472,
+    "height": 431
+  },
+  {
+    "page": 7,
+    "file": "/brochure/extracted/page-07/image-10.png",
+    "sourceName": "Im8.jp2",
+    "bytes": 386023,
+    "width": 604,
+    "height": 431
+  },
+  {
+    "page": 7,
+    "file": "/brochure/extracted/page-07/image-11.png",
+    "sourceName": "Im9.jp2",
+    "bytes": 427453,
+    "width": 466,
+    "height": 431
+  },
+  {
+    "page": 8,
+    "file": "/brochure/extracted/page-08/image-01.jpg",
+    "sourceName": "Im0.jpg",
+    "bytes": 141811,
+    "width": 716,
+    "height": 400
+  },
+  {
+    "page": 8,
+    "file": "/brochure/extracted/page-08/image-02.jpg",
+    "sourceName": "Im1.jpg",
+    "bytes": 143421,
+    "width": 494,
+    "height": 436
+  },
+  {
+    "page": 8,
+    "file": "/brochure/extracted/page-08/image-03.png",
+    "sourceName": "Im2.png",
+    "bytes": 96007,
+    "width": 2288,
+    "height": 605
+  },
+  {
+    "page": 8,
+    "file": "/brochure/extracted/page-08/image-04.jpg",
+    "sourceName": "Im3.jpg",
+    "bytes": 136423,
+    "width": 492,
+    "height": 407
+  },
+  {
+    "page": 8,
+    "file": "/brochure/extracted/page-08/image-05.jpg",
+    "sourceName": "Im4.jpg",
+    "bytes": 120114,
+    "width": 979,
+    "height": 385
+  },
+  {
+    "page": 9,
+    "file": "/brochure/extracted/page-09/image-01.jpg",
+    "sourceName": "Im0.jpg",
+    "bytes": 62287,
+    "width": 473,
+    "height": 338
+  },
+  {
+    "page": 9,
+    "file": "/brochure/extracted/page-09/image-02.jpg",
+    "sourceName": "Im1.jpg",
+    "bytes": 62287,
+    "width": 473,
+    "height": 338
+  },
+  {
+    "page": 9,
+    "file": "/brochure/extracted/page-09/image-03.png",
+    "sourceName": "Im10.jp2",
+    "bytes": 324256,
+    "width": 261,
+    "height": 801
+  },
+  {
+    "page": 9,
+    "file": "/brochure/extracted/page-09/image-04.png",
+    "sourceName": "Im11.jp2",
+    "bytes": 62838,
+    "width": 109,
+    "height": 338
+  },
+  {
+    "page": 9,
+    "file": "/brochure/extracted/page-09/image-05.png",
+    "sourceName": "Im12.jp2",
+    "bytes": 147537,
+    "width": 255,
+    "height": 783
+  },
+  {
+    "page": 9,
+    "file": "/brochure/extracted/page-09/image-06.png",
+    "sourceName": "Im13.jp2",
+    "bytes": 348734,
+    "width": 236,
+    "height": 731
+  },
+  {
+    "page": 9,
+    "file": "/brochure/extracted/page-09/image-07.png",
+    "sourceName": "Im14.jp2",
+    "bytes": 324256,
+    "width": 261,
+    "height": 801
+  },
+  {
+    "page": 9,
+    "file": "/brochure/extracted/page-09/image-08.png",
+    "sourceName": "Im15.jp2",
+    "bytes": 62838,
+    "width": 109,
+    "height": 338
+  },
+  {
+    "page": 9,
+    "file": "/brochure/extracted/page-09/image-09.png",
+    "sourceName": "Im16.jp2",
+    "bytes": 147537,
+    "width": 255,
+    "height": 783
+  },
+  {
+    "page": 9,
+    "file": "/brochure/extracted/page-09/image-10.png",
+    "sourceName": "Im17.jp2",
+    "bytes": 677691,
+    "width": 354,
+    "height": 1099
+  },
+  {
+    "page": 9,
+    "file": "/brochure/extracted/page-09/image-11.png",
+    "sourceName": "Im18.jp2",
+    "bytes": 324256,
+    "width": 261,
+    "height": 801
+  },
+  {
+    "page": 9,
+    "file": "/brochure/extracted/page-09/image-12.jpg",
+    "sourceName": "Im19.jpg",
+    "bytes": 79235,
+    "width": 371,
+    "height": 366
+  },
+  {
+    "page": 9,
+    "file": "/brochure/extracted/page-09/image-13.jpg",
+    "sourceName": "Im2.jpg",
+    "bytes": 62287,
+    "width": 473,
+    "height": 338
+  },
+  {
+    "page": 9,
+    "file": "/brochure/extracted/page-09/image-14.jpg",
+    "sourceName": "Im3.jpg",
+    "bytes": 62287,
+    "width": 473,
+    "height": 338
+  },
+  {
+    "page": 9,
+    "file": "/brochure/extracted/page-09/image-15.jpg",
+    "sourceName": "Im4.jpg",
+    "bytes": 56591,
+    "width": 380,
+    "height": 373
+  },
+  {
+    "page": 9,
+    "file": "/brochure/extracted/page-09/image-16.jpg",
+    "sourceName": "Im5.jpg",
+    "bytes": 52489,
+    "width": 385,
+    "height": 381
+  },
+  {
+    "page": 9,
+    "file": "/brochure/extracted/page-09/image-17.jpg",
+    "sourceName": "Im6.jpg",
+    "bytes": 107188,
+    "width": 388,
+    "height": 385
+  },
+  {
+    "page": 9,
+    "file": "/brochure/extracted/page-09/image-18.png",
+    "sourceName": "Im7.jp2",
+    "bytes": 62838,
+    "width": 109,
+    "height": 338
+  },
+  {
+    "page": 9,
+    "file": "/brochure/extracted/page-09/image-19.png",
+    "sourceName": "Im8.jp2",
+    "bytes": 147537,
+    "width": 255,
+    "height": 783
+  },
+  {
+    "page": 9,
+    "file": "/brochure/extracted/page-09/image-20.png",
+    "sourceName": "Im9.jp2",
+    "bytes": 348003,
+    "width": 235,
+    "height": 733
+  },
+  {
+    "page": 10,
+    "file": "/brochure/extracted/page-10/image-01.jpg",
+    "sourceName": "Im0.jpg",
+    "bytes": 257458,
+    "width": 961,
+    "height": 692
+  },
+  {
+    "page": 10,
+    "file": "/brochure/extracted/page-10/image-02.jpg",
+    "sourceName": "Im1.jpg",
+    "bytes": 213507,
+    "width": 961,
+    "height": 692
+  },
+  {
+    "page": 10,
+    "file": "/brochure/extracted/page-10/image-03.png",
+    "sourceName": "Im10.jp2",
+    "bytes": 512896,
+    "width": 288,
+    "height": 870
+  },
+  {
+    "page": 10,
+    "file": "/brochure/extracted/page-10/image-04.png",
+    "sourceName": "Im11.jp2",
+    "bytes": 404639,
+    "width": 334,
+    "height": 1044
+  },
+  {
+    "page": 10,
+    "file": "/brochure/extracted/page-10/image-05.png",
+    "sourceName": "Im12.jp2",
+    "bytes": 404639,
+    "width": 334,
+    "height": 1044
+  },
+  {
+    "page": 10,
+    "file": "/brochure/extracted/page-10/image-06.png",
+    "sourceName": "Im13.jp2",
+    "bytes": 404639,
+    "width": 334,
+    "height": 1044
+  },
+  {
+    "page": 10,
+    "file": "/brochure/extracted/page-10/image-07.png",
+    "sourceName": "Im2.jp2",
+    "bytes": 403152,
+    "width": 276,
+    "height": 870
+  },
+  {
+    "page": 10,
+    "file": "/brochure/extracted/page-10/image-08.png",
+    "sourceName": "Im3.jp2",
+    "bytes": 403152,
+    "width": 276,
+    "height": 870
+  },
+  {
+    "page": 10,
+    "file": "/brochure/extracted/page-10/image-09.png",
+    "sourceName": "Im4.jp2",
+    "bytes": 403152,
+    "width": 276,
+    "height": 870
+  },
+  {
+    "page": 10,
+    "file": "/brochure/extracted/page-10/image-10.jpg",
+    "sourceName": "Im5.jpg",
+    "bytes": 158066,
+    "width": 373,
+    "height": 370
+  },
+  {
+    "page": 10,
+    "file": "/brochure/extracted/page-10/image-11.jpg",
+    "sourceName": "Im6.jpg",
+    "bytes": 160101,
+    "width": 374,
+    "height": 372
+  },
+  {
+    "page": 10,
+    "file": "/brochure/extracted/page-10/image-12.jpg",
+    "sourceName": "Im7.jpg",
+    "bytes": 125424,
+    "width": 454,
+    "height": 450
+  },
+  {
+    "page": 10,
+    "file": "/brochure/extracted/page-10/image-13.png",
+    "sourceName": "Im8.jp2",
+    "bytes": 512896,
+    "width": 288,
+    "height": 870
+  },
+  {
+    "page": 10,
+    "file": "/brochure/extracted/page-10/image-14.png",
+    "sourceName": "Im9.jp2",
+    "bytes": 512896,
+    "width": 288,
+    "height": 870
+  }
+]

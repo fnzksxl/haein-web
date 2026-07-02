@@ -1,0 +1,234 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, "Noto Sans KR", sans-serif;
+  color: #101827;
+}
+
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes kenburns {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.08);
+  }
+}
+
+@keyframes float-soft {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes scan-line {
+  from {
+    transform: translateX(-120%);
+  }
+  to {
+    transform: translateX(120%);
+  }
+}
+
+@keyframes history-drift {
+  from {
+    background-position: 0 0, 0 0;
+  }
+  to {
+    background-position: 180px 120px, -140px 90px;
+  }
+}
+
+@keyframes shine {
+  from {
+    transform: translateX(-140%) skewX(-18deg);
+  }
+  to {
+    transform: translateX(180%) skewX(-18deg);
+  }
+}
+
+@keyframes pulse-glow {
+  0%,
+  100% {
+    box-shadow: 0 0 0 0 rgba(57, 197, 255, 0.34);
+  }
+  50% {
+    box-shadow: 0 0 0 10px rgba(57, 197, 255, 0);
+  }
+}
+
+@keyframes reveal-scale {
+  from {
+    opacity: 0;
+    transform: translateY(28px) scale(0.96);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@keyframes mega-menu-drop {
+  from {
+    opacity: 0;
+    clip-path: inset(0 0 100% 0);
+    transform: translateY(-28px);
+    transform-origin: top;
+  }
+  to {
+    opacity: 1;
+    clip-path: inset(0 0 0 0);
+    transform: translateY(0);
+    transform-origin: top;
+  }
+}
+
+.animate-rise {
+  animation: rise 0.7s ease both;
+}
+
+.animate-kenburns {
+  animation: kenburns 14s ease-in-out both;
+}
+
+.animate-float-soft {
+  animation: float-soft 4.5s ease-in-out infinite;
+}
+
+.animate-reveal-scale {
+  animation: reveal-scale 0.8s ease both;
+}
+
+.animate-pulse-glow {
+  animation: pulse-glow 2.4s ease-in-out infinite;
+}
+
+.animate-rise-pulse {
+  animation: rise 0.7s ease both, pulse-glow 2.4s ease-in-out 0.8s infinite;
+}
+
+.mega-menu-panel {
+  animation: mega-menu-drop 900ms cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+.scan-layer {
+  background-image: linear-gradient(90deg, transparent, rgba(57, 197, 255, 0.22), transparent);
+  animation: scan-line 5s ease-in-out infinite;
+}
+
+.history-flow-bg {
+  background-image:
+    linear-gradient(115deg, transparent 0 46%, rgba(14, 116, 144, 0.08) 47%, transparent 49%),
+    linear-gradient(65deg, transparent 0 52%, rgba(57, 197, 255, 0.1) 53%, transparent 55%);
+  background-size: 180px 120px, 140px 90px;
+  animation: history-drift 18s linear infinite;
+}
+
+.shine-card {
+  position: relative;
+}
+
+.shine-card::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(105deg, transparent 35%, rgba(255, 255, 255, 0.28), transparent 65%);
+  opacity: 0;
+  pointer-events: none;
+  transform: translateX(-140%) skewX(-18deg);
+}
+
+.shine-card:hover::after {
+  animation: shine 0.8s ease;
+  opacity: 1;
+}
+
+[data-reveal] {
+  opacity: 0;
+  transition:
+    opacity 0.9s cubic-bezier(0.16, 1, 0.3, 1),
+    transform 0.9s cubic-bezier(0.16, 1, 0.3, 1),
+    filter 0.9s cubic-bezier(0.16, 1, 0.3, 1);
+  will-change: opacity, transform, filter;
+}
+
+[data-reveal="left"] {
+  filter: blur(8px);
+  transform: translateX(-84px) rotateY(10deg);
+}
+
+[data-reveal="right"] {
+  filter: blur(8px);
+  transform: translateX(84px) rotateY(-10deg);
+}
+
+[data-reveal="up"] {
+  filter: blur(8px);
+  transform: translateY(70px) scale(0.96);
+}
+
+[data-reveal="zoom"] {
+  filter: blur(10px);
+  transform: scale(0.86);
+}
+
+[data-reveal].is-visible {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0) translateY(0) rotateY(0) scale(1);
+}
+
+.delay-100 {
+  animation-delay: 100ms;
+}
+
+.delay-200 {
+  animation-delay: 200ms;
+}
+
+.delay-300 {
+  animation-delay: 300ms;
+}
+
+.delay-400 {
+  animation-delay: 400ms;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 1ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+    transition-duration: 1ms !important;
+  }
+
+  [data-reveal] {
+    opacity: 1 !important;
+    filter: none !important;
+    transform: none !important;
+  }
+}

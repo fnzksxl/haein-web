@@ -1,0 +1,569 @@
+{
+    "육상 생태계":{
+            "카메라": [
+                {
+                    "name": "NiKON DSLR CAMERA D850",
+                    "subCategory": "카메라",
+                    "quantity": 5,
+                    "description": "",
+                    "imgSrc": "/equipments/land-ecosystem/images/카메라/1.png",
+                    "thumnailSrc": "/equipments/land-ecosystem/thumnails/카메라/1.png"
+                },
+                {
+                    "name": "NiKON DSLR CAMERA D6",
+                    "subCategory": "카메라",
+                    "quantity": 1,
+                    "description": "",
+                    "imgSrc": "/equipments/land-ecosystem/images/카메라/2.png",
+                    "thumnailSrc": "/equipments/land-ecosystem/thumnails/카메라/2.png"
+                },
+                {
+                    "name": "NiKON 미러리스 카메라 Z8",
+                    "subCategory": "카메라",
+                    "quantity": 1,
+                    "description": "",
+                    "imgSrc": "/equipments/land-ecosystem/images/카메라/3.png",
+                    "thumnailSrc": "/equipments/land-ecosystem/thumnails/카메라/3.png"
+                },
+                {
+                    "name": "NiKON 미러리스 카메라 Z9",
+                    "subCategory": "카메라",
+                    "quantity": 2,
+                    "description": "",
+                    "imgSrc": "/equipments/land-ecosystem/images/카메라/4.png",
+                    "thumnailSrc": "/equipments/land-ecosystem/thumnails/카메라/4.png"
+                },
+                {
+                    "name": "NIKKOR Z 600mm F6.3 PF Lens",
+                    "subCategory": "카메라렌즈",
+                    "quantity": 1,
+                    "description": "",
+                    "imgSrc": "/equipments/land-ecosystem/images/카메라렌즈/1.png",
+                    "thumnailSrc": "/equipments/land-ecosystem/thumnails/카메라렌즈/1.png"
+
+                },
+                {
+                    "name": "NIKKOR Z 400mm F4.5 PF Lens",
+                    "subCategory": "카메라렌즈",
+                    "quantity": 1,
+                    "description": "",
+                    "imgSrc": "/equipments/land-ecosystem/images/카메라렌즈/2.png",
+                    "thumnailSrc": "/equipments/land-ecosystem/thumnails/카메라렌즈/2.png"
+                },
+                {
+                    "name": "AF-S NIKKOR 400mm F2.8 FL ED VR",
+                    "subCategory": "카메라렌즈",
+                    "quantity": 1,
+                    "description": "",
+                    "imgSrc": "/equipments/land-ecosystem/images/카메라렌즈/3.png",
+                    "thumnailSrc": "/equipments/land-ecosystem/thumnails/카메라렌즈/3.png"
+                },
+                {
+                    "name": "AF-S NIKKOR 500mm F4.0 FL ED VR",
+                    "subCategory": "카메라렌즈",
+                    "quantity": 1,
+                    "description": "",
+                    "imgSrc": "/equipments/land-ecosystem/images/카메라렌즈/4.png",
+                    "thumnailSrc": "/equipments/land-ecosystem/thumnails/카메라렌즈/4.png"
+                },
+                {
+                    "name": "AF-S NIKKOR 800mm F5.6 FL ED VR",
+                    "subCategory": "카메라렌즈",
+                    "quantity": 1,
+                    "description": "",
+                    "imgSrc": "/equipments/land-ecosystem/images/카메라렌즈/5.png",
+                    "thumnailSrc": "/equipments/land-ecosystem/thumnails/카메라렌즈/5.png"
+                },
+                {
+                    "name": "NiKON DSLR CAMERA D500",
+                    "subCategory": "DSLR 카메라 및 렌즈",
+                    "quantity": 5,
+                    "description": "",
+                    "imgSrc": "/equipments/land-ecosystem/images/DSLR/1.png",
+                    "thumnailSrc": "/equipments/land-ecosystem/thumnails/DSLR/1.png"
+                },
+                {
+                    "name": "AF-S NIKKOR 500mm 1:5.6E PF ED",
+                    "subCategory": "DSLR 카메라 및 렌즈",
+                    "quantity": 3,
+                    "description": "",
+                    "imgSrc": "/equipments/land-ecosystem/images/DSLR/2.png",
+                    "thumnailSrc": "/equipments/land-ecosystem/thumnails/DSLR/2.png"
+                },
+                {
+                    "name": "AF-S NIKKOR 200-500mm 1:5.6E ED",
+                    "subCategory": "DSLR 카메라 및 렌즈",
+                    "quantity": 1,
+                    "description": "",
+                    "imgSrc": "/equipments/land-ecosystem/images/DSLR/3.png",
+                    "thumnailSrc": "/equipments/land-ecosystem/thumnails/DSLR/3.png"
+                },
+                {
+                    "name": "OLYMPUS TOUGH TG-6(4K)",
+                    "subCategory": "디지털카메라",
+                    "quantity": 10,
+                    "description": "",
+                    "imgSrc": "/equipments/land-ecosystem/images/디지털카메라/1.png",
+                    "thumnailSrc": "/equipments/land-ecosystem/thumnails/디지털카메라/1.png"
+                },
+                {
+                    "name": "RICOH WG-6",
+                    "subCategory": "디지털카메라",
+                    "quantity": 2,
+                    "description": "",
+                    "imgSrc": "/equipments/land-ecosystem/images/디지털카메라/2.png",
+                    "thumnailSrc": "/equipments/land-ecosystem/thumnails/디지털카메라/2.png"
+                }
+            ],
+            "쌍안경": [
+                {
+                    "name": "SWAROVSKI NL 12x42",
+                    "subCategory": "쌍안경",
+                    "quantity": 1,
+                    "description": "",
+                    "imgSrc": "/equipments/land-ecosystem/images/쌍안경/1.png",
+                    "thumnailSrc": "/equipments/land-ecosystem/thumnails/쌍안경/1.png"
+                },
+                {
+                    "name": "SWAROVSKI EL 12x50",
+                    "subCategory": "쌍안경",
+                    "quantity": 1,
+                    "description": "",
+                    "imgSrc": "/equipments/land-ecosystem/images/쌍안경/2.png",
+                    "thumnailSrc": "/equipments/land-ecosystem/thumnails/쌍안경/2.png"
+                },
+                {
+                    "name": "SWAROVSKI EL Rnage 12x42",
+                    "subCategory": "쌍안경",
+                    "quantity": 6,
+                    "description": "",
+                    "imgSrc": "/equipments/land-ecosystem/images/쌍안경/3.png",
+                    "thumnailSrc": "/equipments/land-ecosystem/thumnails/쌍안경/3.png"
+                },
+                {
+                    "name": "SWAROVSKI CL Companion 10x30",
+                    "subCategory": "쌍안경",
+                    "quantity": 1,
+                    "description": "",
+                    "imgSrc": "/equipments/land-ecosystem/images/쌍안경/4.png",
+                    "thumnailSrc": "/equipments/land-ecosystem/thumnails/쌍안경/4.png"
+                },
+                {
+                    "name": "Nikon ProStaff 3s 10x42 7°",
+                    "subCategory": "쌍안경",
+                    "quantity": 4,
+                    "description": "",
+                    "imgSrc": "/equipments/land-ecosystem/images/쌍안경/5.png",
+                    "thumnailSrc": "/equipments/land-ecosystem/thumnails/쌍안경/5.png"
+                },
+                {
+                    "name": "FUJINON TECHNO STAB 16x28 4°",
+                    "subCategory": "쌍안경",
+                    "quantity": 1,
+                    "description": "",
+                    "imgSrc": "/equipments/land-ecosystem/images/쌍안경/6.png",
+                    "thumnailSrc": "/equipments/land-ecosystem/thumnails/쌍안경/6.png"
+                }
+            ],
+            "스코프": [
+                {
+                    "name": "SWAROVSKI STC 17-40x56",
+                    "subCategory": "스코프",
+                    "quantity": 2,
+                    "description": "",
+                    "imgSrc": "/equipments/land-ecosystem/images/스코프/1.png",
+                    "thumnailSrc": "/equipments/land-ecosystem/thumnails/스코프/1.png"
+                },
+                {
+                    "name": "SWAROVSKI STX 65mm 스코프 모듈(25-60x)",
+                    "subCategory": "스코프",
+                    "quantity": 1,
+                    "description": "",
+                    "imgSrc": "/equipments/land-ecosystem/images/스코프/2.png",
+                    "thumnailSrc": "/equipments/land-ecosystem/thumnails/스코프/2.png"
+                },
+                {
+                    "name": "SWAROVSKI STX 115mm 스코프 모듈(25-60x)",
+                    "subCategory": "스코프",
+                    "quantity": 4,
+                    "description": "",
+                    "imgSrc": "/equipments/land-ecosystem/images/스코프/3.png",
+                    "thumnailSrc": "/equipments/land-ecosystem/thumnails/스코프/3.png"
+                }
+            ],
+            "무전기": [
+                {
+                    "name": "MOTORORA TalkAbout T82/T82 Extreme",
+                    "subCategory": "무전기",
+                    "quantity": 8,
+                    "description": "",
+                    "imgSrc": "/equipments/land-ecosystem/images/무전기/1.png",
+                    "thumnailSrc": "/equipments/land-ecosystem/thumnails/무전기/1.png"
+                }
+            ],
+            "드론": [
+                {
+                    "name": "DJI MINI 3 PRO",
+                    "subCategory": "드론",
+                    "quantity": 1,
+                    "description": "",
+                    "imgSrc": "/equipments/land-ecosystem/images/드론/1.png",
+                    "thumnailSrc": "/equipments/land-ecosystem/thumnails/드론/1.png"
+                },
+                {
+                    "name": "DJI MAVIC 3",
+                    "subCategory": "드론",
+                    "quantity": 1,
+                    "description": "",
+                    "imgSrc": "/equipments/land-ecosystem/images/드론/2.png",
+                    "thumnailSrc": "/equipments/land-ecosystem/thumnails/드론/2.png"
+                },
+                {
+                    "name": "DJI Enterprise Matrice 300 SERIES",
+                    "subCategory": "드론",
+                    "quantity": 1,
+                    "description": "",
+                    "imgSrc": "/equipments/land-ecosystem/images/드론/3.png",
+                    "thumnailSrc": "/equipments/land-ecosystem/thumnails/드론/3.png"
+                },
+                {
+                    "name": "DJI Enterprise ZENMUSE L1",
+                    "subCategory": "드론 부속품",
+                    "quantity": 1,
+                    "description": "",
+                    "imgSrc": "/equipments/land-ecosystem/images/드론부속품/1.png",
+                    "thumnailSrc": "/equipments/land-ecosystem/thumnails/드론부속품/1.png"
+                }
+            ],
+            "Song Meter": [
+                {
+                    "name": "Song Meter Mini",
+                    "subCategory": "Song Meter",
+                    "quantity": 9,
+                    "description": "",
+                    "imgSrc": "/equipments/land-ecosystem/images/송미터/1.png",
+                    "thumnailSrc": "/equipments/land-ecosystem/thumnails/송미터/1.png"
+                },
+                {
+                    "name": "Song Meter Mini Bat",
+                    "subCategory": "Song Meter",
+                    "quantity": 2,
+                    "description": "",
+                    "imgSrc": "/equipments/land-ecosystem/images/송미터/2.png",
+                    "thumnailSrc": "/equipments/land-ecosystem/thumnails/송미터/2.png"
+                },
+                {
+                    "name": "Song Meter SM4BAT FS",
+                    "subCategory": "Song Meter",
+                    "quantity": 1,
+                    "description": "",
+                    "imgSrc": "/equipments/land-ecosystem/images/송미터/3.png",
+                    "thumnailSrc": "/equipments/land-ecosystem/thumnails/송미터/3.png"
+                }
+            ]
+        },
+    "해양 생태계" : {
+        "수중 시료 채취 및 관찰": [
+            {
+                "name": "Niskin Sampler",
+                "description": "수중에서 물 시료 채취",
+                "imgSrc": "/equipments/sea-ecosystem/images/수중 시료 채취 및 관찰/1.png",
+                "thumnailSrc": "/equipments/sea-ecosystem/thumnails/수중 시료 채취 및 관찰/1.png"
+            },
+            {
+                "name": "Grab",
+                "description": "저서 퇴적물 또는 바닥 시료 채취",
+                "imgSrc": "/equipments/sea-ecosystem/images/수중 시료 채취 및 관찰/2.png",
+                "thumnailSrc": "/equipments/sea-ecosystem/thumnails/수중 시료 채취 및 관찰/2.png"
+            },
+            {
+                "name": "Norpac net",
+                "description": "플랑크톤 등 수중 생물 채집",
+                "imgSrc": "/equipments/sea-ecosystem/images/수중 시료 채취 및 관찰/3.png",
+                "thumnailSrc": "/equipments/sea-ecosystem/thumnails/수중 시료 채취 및 관찰/3.png"
+            },
+            {
+                "name": "수중드론 (RDV)",
+                "description": "수중 환경 탐사 또는 촬영",
+                "imgSrc": "/equipments/sea-ecosystem/images/수중 시료 채취 및 관찰/4.png",
+                "thumnailSrc": "/equipments/sea-ecosystem/thumnails/수중 시료 채취 및 관찰/4.png"
+            },
+            {
+                "name": "하이드로폰",
+                "description": "수중 소리 감지 및 기록",
+                "imgSrc": "/equipments/sea-ecosystem/images/수중 시료 채취 및 관찰/5.png",
+                "thumnailSrc": "/equipments/sea-ecosystem/thumnails/수중 시료 채취 및 관찰/5.png"
+            },
+            {
+                "name": "방형구",
+                "description": "수중 생물 개체수 조사 위한 채집 도구",
+                "imgSrc": "/equipments/sea-ecosystem/images/수중 시료 채취 및 관찰/6.png",
+                "thumnailSrc": "/equipments/sea-ecosystem/thumnails/수중 시료 채취 및 관찰/6.png"
+            }
+        ],
+        "데이터 수집 및 기록": [
+            {
+                "name": "데이터 증폭기",
+                "description": "신호 증폭하여 데이터 품질 향상",
+                "imgSrc": "/equipments/sea-ecosystem/images/데이터 수집 및 기록/1.png",
+                "thumnailSrc": "/equipments/sea-ecosystem/thumnails/데이터 수집 및 기록/1.png"
+            },
+            {
+                "name": "데이터 수집기",
+                "description": "실시간으로 환경 데이터 수집",
+                "imgSrc": "/equipments/sea-ecosystem/images/데이터 수집 및 기록/2.png",
+                "thumnailSrc": "/equipments/sea-ecosystem/thumnails/데이터 수집 및 기록/2.png"
+            },
+            {
+                "name": "노트북/GPS",
+                "description": "데이터 기록 및 위치 추적",
+                "imgSrc": "/equipments/sea-ecosystem/images/데이터 수집 및 기록/3.png",
+                "thumnailSrc": "/equipments/sea-ecosystem/thumnails/데이터 수집 및 기록/3.png"
+            },
+            {
+                "name": "디지털카메라",
+                "description": "현장 사진 기록",
+                "imgSrc": "/equipments/sea-ecosystem/images/데이터 수집 및 기록/4.png",
+                "thumnailSrc": "/equipments/sea-ecosystem/thumnails/데이터 수집 및 기록/4.png"
+            }
+        ],
+        "현미경": [
+            {
+                "name": "광학현미경",
+                "description": "미세 생물이나 입자를 확대 관찰",
+                "imgSrc": "/equipments/sea-ecosystem/images/현미경/1.png",
+                "thumnailSrc": "/equipments/sea-ecosystem/thumnails/현미경/1.png"
+            },
+            {
+                "name": "실체현미경",
+                "description": "입체적인 시료(생물, 퇴적물 등) 관찰",
+                "imgSrc": "/equipments/sea-ecosystem/images/현미경/2.png",
+                "thumnailSrc": "/equipments/sea-ecosystem/thumnails/현미경/2.png"
+            }
+        ],
+        "생물 및 입자 분석": [
+            {
+                "name": "Sedgwick Rafter 계수판",
+                "description": "플랑크톤 등 미생물 개체수 계수",
+                "imgSrc": "/equipments/sea-ecosystem/images/생물 및 입자 분석/1.png",
+                "thumnailSrc": "/equipments/sea-ecosystem/thumnails/생물 및 입자 분석/1.png"
+            },
+            {
+                "name": "Bogorov 계수판",
+                "description": "플랑크톤이나 작은 생물 개체수 세는 데 사용",
+                "imgSrc": "/equipments/sea-ecosystem/images/생물 및 입자 분석/2.png",
+                "thumnailSrc": "/equipments/sea-ecosystem/thumnails/생물 및 입자 분석/2.png"
+            },
+            {
+                "name": "Sieve",
+                "description": "입자 크기별로 시료 분리",
+                "imgSrc": "/equipments/sea-ecosystem/images/생물 및 입자 분석/3.png",
+                "thumnailSrc": "/equipments/sea-ecosystem/thumnails/생물 및 입자 분석/3.png"
+            }
+        ],
+        "항공 및 원격 탐사": [
+            {
+                "name": "드론",
+                "description": "공중에서 환경 관찰 및 데이터 수집",
+                "imgSrc": "/equipments/sea-ecosystem/images/항공 및 원격 탐사/1.png",
+                "thumnailSrc": "/equipments/sea-ecosystem/thumnails/항공 및 원격 탐사/1.png"
+            },
+            {
+                "name": "쌍안경",
+                "description": "멀리 있는 대상(예: 조류) 관찰",
+                "imgSrc": "/equipments/sea-ecosystem/images/항공 및 원격 탐사/21.png",
+                "thumnailSrc": "/equipments/sea-ecosystem/thumnails/항공 및 원격 탐사/2.png"
+            }
+        ]
+    },
+    "환경 측정": {
+        "가민": [
+            {
+                "name": "가민",
+                "subCategory": "가민",
+                "quantity": 20,
+                "description": "",
+                "imgSrc": "/equipments/measure-environment/images/가민/1.png",
+                "thumnailSrc": "/equipments/measure-environment/thumnails/가민/1.png"
+            }
+        ],
+        "헤드랜턴": [
+            {
+                "name": "CLAYMOR3",
+                "subCategory": "헤드랜턴",
+                "quantity": 10,
+                "description": "",
+                "imgSrc": "/equipments/measure-environment/images/헤드랜턴/1.png",
+                "thumnailSrc": "/equipments/measure-environment/thumnails/헤드랜턴/1.png"
+            }
+        ],
+        "전자기장측정기기": [
+            {
+                "name": "Electromagnetic Field Meter",
+                "subCategory": "전자기장측정기기",
+                "quantity": 2,
+                "description": "",
+                "imgSrc": "/equipments/measure-environment/images/전자기장측정기기/1.png",
+                "thumnailSrc": "/equipments/measure-environment/thumnails/전자기장측정기기/1.png"
+            }
+        ],
+        "무인감시카메라": [
+            {
+                "name": "ZERO BEAM T9 Pro",
+                "subCategory": "무인감시카메라",
+                "quantity": 20,
+                "description": "",
+                "imgSrc": "/equipments/measure-environment/images/무인감시카메라/1.png",
+                "thumnailSrc": "/equipments/measure-environment/thumnails/무인감시카메라/1.png"
+            }
+        ],
+        "거리측정기기": [
+            {
+                "name": "NiKON Forestry Pro 2",
+                "subCategory": "거리측정기기",
+                "quantity": 2,
+                "description": "",
+                "imgSrc": "/equipments/measure-environment/images/거리측정기기/1.png",
+                "thumnailSrc": "/equipments/measure-environment/thumnails/거리측정기기/1.png"
+            }
+        ]
+    },
+    "해양화학 및 퇴적물": {
+        "수질 분석 및 시료 채취": [
+            {
+                "name": "YSI",
+                "description": "수질 측정 장비(용존산소, pH, 전도도 등 실시간 측정)",
+                "imgSrc": "/equipments/sea-chemical/images/수질 분석 및 시료 채취/1.png",
+                "thumnailSrc": "/equipments/sea-chemical/thumnails/수질 분석 및 시료 채취/1.png"
+            },
+            {
+                "name": "Niskin 채수기",
+                "description": "해양 또는 수체에서 물 시료 채취하는 장비",
+                "imgSrc": "/equipments/sea-chemical/images/수질 분석 및 시료 채취/2.png",
+                "thumnailSrc": "/equipments/sea-chemical/thumnails/수질 분석 및 시료 채취/2.png"
+            },
+            {
+                "name": "TOC Analyzer",
+                "description": "총유기탄소 분석으로 수질 오염도 평가",
+                "imgSrc": "/equipments/sea-chemical/images/수질 분석 및 시료 채취/3.png",
+                "thumnailSrc": "/equipments/sea-chemical/thumnails/수질 분석 및 시료 채취/3.png"
+            },
+            {
+                "name": "수질 미량금속 전처리장치",
+                "description": "수질 내 금속 분석을 위한 전처리 장비",
+                "imgSrc": "/equipments/sea-chemical/images/수질 분석 및 시료 채취/4.png",
+                "thumnailSrc": "/equipments/sea-chemical/thumnails/수질 분석 및 시료 채취/4.png"
+            },
+            {
+                "name": "Auto Dave",
+                "description": "수질 TN(총 질소) 및 TP(총 인) 전처리 장비",
+                "imgSrc": "/equipments/sea-chemical/images/수질 분석 및 시료 채취/5.png",
+                "thumnailSrc": "/equipments/sea-chemical/thumnails/수질 분석 및 시료 채취/5.png"
+            }
+        ],
+        "시료 전처리 및 농축": [
+            {
+                "name": "원심분리기",
+                "description": "시료 내 고체-액체 분리",
+                "imgSrc": "/equipments/sea-chemical/images/시료 전처리 및 농축/1.png",
+                "thumnailSrc": "/equipments/sea-chemical/thumnails/시료 전처리 및 농축/1.png"
+            },
+            {
+                "name": "분액여두 진탕기",
+                "description": "액체 시료 혼합 및 추출",
+                "imgSrc": "/equipments/sea-chemical/images/시료 전처리 및 농축/2.png",
+                "thumnailSrc": "/equipments/sea-chemical/thumnails/시료 전처리 및 농축/2.png"
+            },
+            {
+                "name": "회전증발 농축기",
+                "description": "용매 제거 및 시료 농축",
+                "imgSrc": "/equipments/sea-chemical/images/시료 전처리 및 농축/3.png",
+                "thumnailSrc": "/equipments/sea-chemical/thumnails/시료 전처리 및 농축/3.png"
+            },
+            {
+                "name": "질소가스 농축기",
+                "description": "질소 기류로 시료 농축",
+                "imgSrc": "/equipments/sea-chemical/images/시료 전처리 및 농축/4.png",
+                "thumnailSrc": "/equipments/sea-chemical/thumnails/시료 전처리 및 농축/4.png"
+            },
+            {
+                "name": "디지털 뷰렛",
+                "description": "정밀한 시약 적정",
+                "imgSrc": "/equipments/sea-chemical/images/시료 전처리 및 농축/5.png",
+                "thumnailSrc": "/equipments/sea-chemical/thumnails/시료 전처리 및 농축/5.png"
+            }
+        ],
+        "기타 특수 장비": [
+            {
+                "name": "",
+                "description": "",
+                "imgSrc": "/equipments/sea-chemical/images/기타 특수 장비/1.png",
+                "thumnailSrc": "/equipments/sea-chemical/thumnails/기타 특수 장비/1.png"
+            },
+            {
+                "name": "",
+                "description": "",
+                "imgSrc": "/equipments/sea-chemical/images/기타 특수 장비/2.png",
+                "thumnailSrc": "/equipments/sea-chemical/thumnails/기타 특수 장비/2.png"
+            }
+        ],
+        "화학 성분 분석": [
+            {
+                "name": "ICP-MS",
+                "description": "유도 결합 플라즈마 질량 분석기로 미량 금속 분석",
+                "imgSrc": "/equipments/sea-chemical/images/화학 성분 분석/1.png",
+                "thumnailSrc": "/equipments/sea-chemical/thumnails/화학 성분 분석/1.png"
+            },
+            {
+                "name": "수은분석기",
+                "description": "수은 농도 측정 특화 장비",
+                "imgSrc": "/equipments/sea-chemical/images/화학 성분 분석/2.png",
+                "thumnailSrc": "/equipments/sea-chemical/thumnails/화학 성분 분석/2.png"
+            },
+            {
+                "name": "형광분광 광도계",
+                "description": "형광 물질 분석(유기물, 생물학적 물질 등)",
+                "imgSrc": "/equipments/sea-chemical/images/화학 성분 분석/3.png",
+                "thumnailSrc": "/equipments/sea-chemical/thumnails/화학 성분 분석/3.png"
+            },
+            {
+                "name": "GC-MS",
+                "description": "가스 크로마토그래피-질량 분석기로 휘발성 유기화합물 분석",
+                "imgSrc": "/equipments/sea-chemical/images/화학 성분 분석/4.png",
+                "thumnailSrc": "/equipments/sea-chemical/thumnails/화학 성분 분석/4.png"
+            },
+            {
+                "name": "Uv Spectro Photometer",
+                "description": "자외선 흡광도를 이용한 물질 농도 분석",
+                "imgSrc": "/equipments/sea-chemical/images/화학 성분 분석/5.png",
+                "thumnailSrc": "/equipments/sea-chemical/thumnails/화학 성분 분석/5.png"
+            }
+        ],
+        "온도 및 환경 제어": [
+            {
+                "name": "Dry Oven",
+                "description": "시료 건조 및 열처리",
+                "imgSrc": "/equipments/sea-chemical/images/온도 및 환경 제어/1.png",
+                "thumnailSrc": "/equipments/sea-chemical/thumnails/온도 및 환경 제어/1.png"
+            },
+            {
+                "name": "항온수욕조",
+                "description": "일정 온도에서 시료 유지",
+                "imgSrc": "/equipments/sea-chemical/images/온도 및 환경 제어/2.png",
+                "thumnailSrc": "/equipments/sea-chemical/thumnails/온도 및 환경 제어/2.png"
+            },
+            {
+                "name": "저온순환 배스",
+                "description": "저온 환경에서 시료 처리",
+                "imgSrc": "/equipments/sea-chemical/images/온도 및 환경 제어/3.png",
+                "thumnailSrc": "/equipments/sea-chemical/thumnails/온도 및 환경 제어/3.png"
+            },
+            {
+                "name": "디지털전기로",
+                "description": "고온 열처리 또는 소각",
+                "imgSrc": "/equipments/sea-chemical/images/온도 및 환경 제어/4.png",
+                "thumnailSrc": "/equipments/sea-chemical/thumnails/온도 및 환경 제어/4.png"
+            }
+        ]
+    }
+}
