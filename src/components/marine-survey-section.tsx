@@ -33,7 +33,10 @@ const CATEGORIES = [
 
 export function MarineSurveySection() {
   return (
-    <section id="marine" className="scroll-mt-20 bg-background">
+    <section
+      id="marine"
+      className="scroll-mt-20 border-y border-cyan-100/70 bg-gradient-to-b from-cyan-50/80 via-white to-sky-50/40"
+    >
       <div className="mx-auto max-w-7xl px-4 py-20 md:px-8 md:py-28">
         <div className="max-w-2xl">
           <span className="text-sm font-bold uppercase tracking-[0.2em] text-accent">
@@ -63,7 +66,6 @@ export function MarineSurveySection() {
                   alt={c.title}
                   className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-primary/50 to-transparent" />
               </div>
               <div className="p-6">
                 <h3 className="text-lg font-bold text-foreground">{c.title}</h3>

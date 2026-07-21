@@ -5,14 +5,17 @@ import { OffshoreWindSection } from "../components/offshore-wind-section"
 import { AirportSection } from "../components/airport-section"
 import { MarineSurveySection } from "../components/marine-survey-section"
 import { TerrestrialLabSection } from "../components/terrestrial-lab-section"
+import { AutomaticSurveySection } from "../components/automatic-survey-section"
 
 export function BusinessPage() {
   return (
     <main>
       <PageHero
-        eyebrow="Business"
-        title="조사와 예측을 연결하는 통합 사업"
+        eyebrow=""
+        title=""
         body="개발 현장의 특성에 맞춘 여섯 가지 전문 영역에서 조사·분석·모델링·완화 방안을 통합 제공합니다."
+        intro={{ section: "Company / Business", title: "주요 사업분야" }}
+        image="/company/hero.png"
       />
       <Business />
     </main>
@@ -107,17 +110,22 @@ export function BusinessDetailPage() {
       equipment: "육상 생태계",
     },
     "environment-measurement": {
-      title: "무인 모니터링 및 환경 측정",
-      subtitle: "드론·자동관측 기반 조사",
+      title: "원격·자동 관측 및 환경 측정",
+      subtitle: "항공·수중 드론과 자동 기록 장비 기반 조사",
       image: "/business/measure-environment-banner.jpg",
       summary:
-        "드론과 자동 관측 장비를 활용해 접근이 어려운 지역의 생태 현황을 효율적으로 모니터링합니다.",
-      services: ["드론 조사", "자동관측", "환경 계측", "공간 데이터 관리"],
+        "항공·수중 드론 원격 조사와 고정형 관측 장비를 활용해 접근이 어려운 지역의 생태 현황과 환경 데이터를 기록합니다.",
+      services: [
+        "항공 드론 원격 조사",
+        "수중 드론 원격 조사",
+        "고정형 카메라 자동 관측",
+        "영상·음향 기록 관리",
+      ],
       process: [
-        "조사 범위 설정",
-        "장비 설치 및 운용",
-        "반복 관측",
-        "공간 분석 자료화",
+        "조사 목적·범위 설정",
+        "원격 장비 운용 또는 관측 장비 설치",
+        "영상·음향·위치 자료 수집",
+        "자료 분석 및 공간화",
       ],
       achievement: "해상풍력 분야",
       equipment: "환경 측정",
@@ -395,17 +403,17 @@ function Business() {
     ],
     [
       "05",
-      "무인 모니터링",
-      "드론·자동관측 기반 조사",
-      "드론과 자동 관측 장비를 활용해 접근이 어려운 지역의 생태 현황을 효율적으로 모니터링합니다.",
-      "#remote",
-    ],
-    [
-      "06",
       "해양화학 분석",
       "이화학 정밀 분석실 운영",
       "자체 분석실을 통해 해양수질·퇴적저질의 이화학 분석을 수행하여 신뢰도 높은 데이터를 제공합니다.",
       "#chemistry",
+    ],
+    [
+      "06",
+      "원격·자동 관측 및 환경 측정",
+      "항공·수중 드론과 자동 기록 장비 기반 조사",
+      "원격 조종 드론과 고정형 관측 장비로 접근이 어려운 지역의 생태 현황과 환경 데이터를 기록합니다.",
+      "#remote",
     ],
   ] as const
   const details = [
@@ -462,20 +470,25 @@ function Business() {
       ],
     ],
     [
-      "remote",
-      "05 · 무인 모니터링",
-      "드론·자동관측 기반 조사",
-      "드론과 자동관측 장비를 활용해 접근이 어려운 지역의 생태 현황을 효율적으로 모니터링합니다.",
-      "/business/measure-environment-banner.jpg",
-      ["드론 조사", "자동관측", "환경 계측", "공간 데이터 관리"],
-    ],
-    [
       "chemistry",
-      "06 · 해양화학",
+      "05 · 해양화학",
       "이화학 정밀 분석 운영",
       "자체 분석실을 통해 해양수질·퇴적저질의 화학 분석을 수행하여 신뢰도 높은 데이터를 제공합니다.",
       "/business/sea-chemical-banner.jpg",
       ["시료 채취", "시료 전처리", "화학 성분 분석", "결과 해석"],
+    ],
+    [
+      "remote",
+      "06 · 원격·자동 관측",
+      "항공·수중 드론과 자동 기록 장비 기반 조사",
+      "원격 조종 드론과 고정형 관측 장비로 접근이 어려운 지역의 생태 현황과 환경 데이터를 기록합니다.",
+      "/business/measure-environment-banner.jpg",
+      [
+        "항공 드론 원격 조사",
+        "수중 드론 원격 조사",
+        "자동 관측",
+        "관측 자료 관리",
+      ],
     ],
   ] as const
 
@@ -488,12 +501,13 @@ function Business() {
               About Us
             </p>
             <h1 className="mt-4 max-w-xl text-3xl font-black leading-tight text-haein-950 md:text-5xl">
-              생태계를 이해하고, 공존의 방법을 설계합니다
+              조사에서 해석까지, 과학적<br></br>판단 근거를 만듭니다
             </h1>
             <p className="mt-6 max-w-2xl leading-8 text-slate-500">
-              해인생태연구소는 해양동물과 해양생물, 해양환경, 그리고 육상 생태계
-              전반에 대한 정밀조사와 분석을 수행합니다. 개발과 자연이 조화를
-              이루는 지속가능한 솔루션을 제공합니다.
+              해인생태연구소는 해양동물·해양생물·해양환경과 육상 생태계를
+              현장에서 조사하고 데이터를 분석합니다. 조사 결과를 영향 예측과
+              저감방안으로 연결해 프로젝트에 필요한 명확한 판단 근거를
+              제공합니다.
             </p>
             <dl className="mt-10 grid grid-cols-2 gap-6 border-t border-sky-100 pt-8">
               {stats.map(([value, label]) => (
@@ -580,6 +594,7 @@ function Business() {
       <AirportSection />
       <MarineSurveySection />
       <TerrestrialLabSection />
+      <AutomaticSurveySection />
     </>
   )
 }

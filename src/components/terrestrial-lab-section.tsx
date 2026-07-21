@@ -28,7 +28,7 @@ export function TerrestrialLabSection() {
   return (
     <section
       id="terrestrial"
-      className="scroll-mt-20 bg-secondary/60 py-20 md:py-28"
+      className="scroll-mt-20 border-y border-emerald-100/70 bg-gradient-to-b from-emerald-50/70 via-white to-sky-50/50 py-20 md:py-28"
     >
       <div className="mx-auto max-w-7xl px-4 md:px-8">
         <div className="max-w-2xl">

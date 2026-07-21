@@ -1,5 +1,5 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import { Footer, Header, RevealObserver } from "./components/layout";
+import { BackToTop, Footer, Header, RevealObserver } from "./components/layout";
 import { useJson } from "./hooks/useJson";
 import { BusinessDetailPage, BusinessPage } from "./pages/BusinessPages";
 import { CredentialsPage, HistoryPage } from "./pages/CompanyPages";
@@ -29,6 +29,7 @@ function App() {
           <Route path="/contact/location" element={<LocationPage />} />
           <Route path="/contact/project" element={<ProjectInquiryPage />} />
         </Routes>
+        <BackToTop />
         <Footer />
       </div>
     </BrowserRouter>

@@ -371,7 +371,7 @@
             {
                 "name": "쌍안경",
                 "description": "멀리 있는 대상(예: 조류) 관찰",
-                "imgSrc": "/equipments/sea-ecosystem/images/항공 및 원격 탐사/21.png",
+                "imgSrc": "/equipments/sea-ecosystem/images/항공 및 원격 탐사/2.png",
                 "thumnailSrc": "/equipments/sea-ecosystem/thumnails/항공 및 원격 탐사/2.png"
             }
         ]
@@ -491,20 +491,6 @@
                 "description": "정밀한 시약 적정",
                 "imgSrc": "/equipments/sea-chemical/images/시료 전처리 및 농축/5.png",
                 "thumnailSrc": "/equipments/sea-chemical/thumnails/시료 전처리 및 농축/5.png"
-            }
-        ],
-        "기타 특수 장비": [
-            {
-                "name": "",
-                "description": "",
-                "imgSrc": "/equipments/sea-chemical/images/기타 특수 장비/1.png",
-                "thumnailSrc": "/equipments/sea-chemical/thumnails/기타 특수 장비/1.png"
-            },
-            {
-                "name": "",
-                "description": "",
-                "imgSrc": "/equipments/sea-chemical/images/기타 특수 장비/2.png",
-                "thumnailSrc": "/equipments/sea-chemical/thumnails/기타 특수 장비/2.png"
             }
         ],
         "화학 성분 분석": [

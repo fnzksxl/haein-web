@@ -38,7 +38,7 @@
   },
   {
     to: "/contact",
-    label: "Contact Us",
+    label: "문의하기",
     children: [
       ["찾아오시는 길", "/contact/location"],
       ["프로젝트 문의", "/contact/project"],
@@ -83,8 +83,8 @@ export const business = [
   ],
   [
     "06",
-    "환경 측정",
-    "전자기장, 수중소음, 위치·거리 측정 등 현장 계측 장비로 조사 신뢰도를 높입니다.",
+    "원격·자동 관측",
+    "항공·수중 드론 원격 조사와 고정형 관측 장비로 접근이 어려운 현장의 영상·음향 자료를 확보합니다.",
     "/business/measure-environment-banner.jpg",
     "environment-measurement",
   ],
@@ -240,8 +240,8 @@ export const businessDetails = [
   },
   {
     slug: "environment-measurement",
-    title: "환경 측정 분야",
-    subtitle: "수중소음, 전자기장, 현장 계측 기반 조사",
+    title: "원격·자동 관측 분야",
+    subtitle: "항공·수중 드론과 자동 기록 장비 기반 조사",
     image: "/business/measure-environment-banner.jpg",
     gallery: [
       "/brochure/extracted/page-07/image-07.jpg",
@@ -250,19 +250,19 @@ export const businessDetails = [
       "/brochure/extracted/page-07/image-11.png",
     ],
     summary:
-      "사업 특성에 맞춰 수중소음, 전자기장, 위치·거리 등 현장 계측 데이터를 수집하고 분석합니다.",
+      "항공·수중 드론을 직접 조종하는 원격 조사와 고정형 카메라·음향 장비를 활용한 자동 관측을 수행합니다.",
     services: [
-      "수중소음 측정",
-      "전자기장 측정",
-      "GPS 기반 위치 추적",
-      "현장 계측 데이터 관리",
+      "항공 드론 원격 조사",
+      "수중 드론 원격 조사",
+      "고정형 카메라 자동 관측",
+      "영상·음향 기록 관리",
     ],
     process: [
-      "측정 계획 수립",
-      "장비 설치 및 보정",
-      "현장 계측",
-      "데이터 분석",
-      "결과 해석",
+      "조사 목적·범위 설정",
+      "원격 장비 운용 또는 관측 장비 설치",
+      "영상·음향·위치 자료 수집",
+      "자료 분류 및 분석",
+      "결과 해석·공간화",
     ],
     achievement: "해상풍력 분야",
     equipment: "환경 측정",

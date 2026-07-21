@@ -34,7 +34,10 @@ const OUTCOMES = [
 
 export function AirportSection() {
   return (
-    <section id="airport" className="scroll-mt-20 bg-secondary/60 py-20 md:py-28">
+    <section
+      id="airport"
+      className="scroll-mt-20 border-y border-blue-100/70 bg-gradient-to-b from-white via-sky-50/70 to-white py-20 md:py-28"
+    >
       <div className="mx-auto max-w-7xl px-4 md:px-8">
         <div className="max-w-2xl">
           <span className="text-sm font-bold uppercase tracking-[0.2em] text-accent">02 · 공항 개발</span>
@@ -73,10 +76,18 @@ export function AirportSection() {
         </div>
 
         {/* Risk matrix */}
-        <div className="mt-14 grid gap-8 lg:grid-cols-[1fr_0.9fr] lg:items-start">
-          <div className="rounded-2xl border border-border bg-card p-6">
-            <h3 className="text-lg font-bold text-primary">충돌 위험 평가 매트릭스</h3>
-            <p className="mt-1 text-sm text-muted-foreground">
+        <div className="mt-14 grid gap-8 lg:grid-cols-[1fr_0.9fr]">
+          <div className="h-full rounded-2xl border border-border bg-card p-6">
+            <div className="flex flex-wrap items-center justify-between gap-3">
+              <h3 className="text-lg font-bold text-primary">충돌 위험 평가 매트릭스</h3>
+              <span className="rounded-full border border-sky-100 bg-sky-50 px-3 py-1 text-xs font-bold text-haein-700">
+                평가 지표 예시
+              </span>
+            </div>
+            <p className="mt-2 text-sm leading-6 text-muted-foreground">
+              해인생태연구소가 프로젝트 검토에 활용하는 지표 중 하나를 예시로 구성했습니다.
+            </p>
+            <p className="mt-1 text-xs text-muted-foreground">
               Probability of strikes (충돌 가능성) × Probability of damage (충돌 심각성)
             </p>
             <div className="mt-5 overflow-x-auto">
@@ -125,19 +136,19 @@ export function AirportSection() {
             </div>
           </div>
 
-          <div className="rounded-2xl border border-border bg-primary p-7 text-primary-foreground">
-            <h3 className="text-lg font-bold">개발과 보전의 균형</h3>
-            <p className="mt-2 text-sm leading-relaxed text-primary-foreground/80">
+          <div className="flex h-full flex-col rounded-2xl border border-sky-100 bg-sky-50/70 p-7">
+            <h3 className="text-lg font-bold text-primary">개발과 보전의 균형</h3>
+            <p className="mt-2 text-sm leading-relaxed text-muted-foreground">
               조사에서 관리까지 이어지는 통합 프로세스로 자연생태계와 공존하는 안전한 항공 인프라를
               구축합니다.
             </p>
-            <ol className="mt-6 space-y-3">
+            <ol className="mt-6 grid flex-1 content-between gap-5">
               {OUTCOMES.map((o, i) => (
                 <li key={o} className="flex items-center gap-3">
-                  <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-accent text-xs font-black text-accent-foreground">
+                  <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-primary text-sm font-black text-primary-foreground">
                     {i + 1}
                   </span>
-                  <span className="text-sm font-medium">{o}</span>
+                  <span className="text-[15px] font-semibold leading-6 text-foreground">{o}</span>
                 </li>
               ))}
             </ol>
