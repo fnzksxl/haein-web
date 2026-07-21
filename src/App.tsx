@@ -15,22 +15,24 @@ function App() {
   return (
     <BrowserRouter>
       <div className="min-h-screen bg-white">
-        <Header />
-        <RevealObserver />
-        <Routes>
-          <Route path="/" element={<HomePage />} />
-          <Route path="/business" element={<BusinessPage />} />
-          <Route path="/business/:slug" element={<BusinessDetailPage />} />
-          <Route path="/history" element={<HistoryPage />} />
-          <Route path="/credentials" element={<CredentialsPage />} />
-          <Route path="/achievements" element={<AchievementsPage achievements={achievements} />} />
-          <Route path="/equipment" element={<EquipmentPage equipments={equipments} />} />
-          <Route path="/contact" element={<LocationPage />} />
-          <Route path="/contact/location" element={<LocationPage />} />
-          <Route path="/contact/project" element={<ProjectInquiryPage />} />
-        </Routes>
-        <BackToTop />
-        <Footer />
+        <div className="mx-auto min-h-screen w-full max-w-[2560px] bg-white">
+          <Header />
+          <RevealObserver />
+          <Routes>
+            <Route path="/" element={<HomePage />} />
+            <Route path="/business" element={<BusinessPage />} />
+            <Route path="/business/:slug" element={<BusinessDetailPage />} />
+            <Route path="/history" element={<HistoryPage />} />
+            <Route path="/credentials" element={<CredentialsPage />} />
+            <Route path="/achievements" element={<AchievementsPage achievements={achievements} />} />
+            <Route path="/equipment" element={<EquipmentPage equipments={equipments} />} />
+            <Route path="/contact" element={<LocationPage />} />
+            <Route path="/contact/location" element={<LocationPage />} />
+            <Route path="/contact/project" element={<ProjectInquiryPage />} />
+          </Routes>
+          <BackToTop />
+          <Footer />
+        </div>
       </div>
     </BrowserRouter>
   );

@@ -118,6 +118,7 @@ export function OffshoreWindSection() {
           </ol>
         </div>
 
+        {/* RAVIAN 홈페이지 공개 시 안내 카드와 하단 모달의 주석을 해제합니다.
         <aside className="relative mt-10 overflow-hidden rounded-3xl border border-sky-100 bg-white p-7 text-haein-950 shadow-xl shadow-haein-950/10 md:p-9">
           <div className="pointer-events-none absolute -right-16 -top-20 h-56 w-56 rounded-full border border-haein-700/10" />
           <div className="pointer-events-none absolute -right-4 -top-8 h-36 w-36 rounded-full border border-haein-700/10" />
@@ -149,8 +150,10 @@ export function OffshoreWindSection() {
             </button>
           </div>
         </aside>
+        */}
       </div>
 
+      {/* RAVIAN 오픈 안내 모달
       <dialog
         ref={dialogRef}
         aria-labelledby="specialized-site-title"
@@ -196,6 +199,7 @@ export function OffshoreWindSection() {
           </form>
         </div>
       </dialog>
+      */}
     </section>
   )
 }

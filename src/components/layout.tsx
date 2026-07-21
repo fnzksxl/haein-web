@@ -130,7 +130,7 @@ export function Header() {
 
   return (
     <header
-      className={`fixed inset-x-0 top-0 z-20 transition-colors duration-700 ${whiteHeader ? "text-haein-950" : "text-white"}`}
+      className={`fixed inset-x-0 top-0 z-20 mx-auto max-w-[2560px] transition-colors duration-700 ${whiteHeader ? "text-haein-950" : "text-white"}`}
       onBlur={(event) =>
         !event.currentTarget.contains(event.relatedTarget) && setMegaOpen(false)
       }
@@ -401,7 +401,7 @@ export function Footer() {
   return (
     <footer className="border-t border-white/10 bg-[#2b2b2b] px-5 py-14 text-neutral-300 md:px-24">
       <div className="mx-auto max-w-7xl">
-        <div className="grid gap-10 border-b border-white/10 pb-10 lg:grid-cols-[1fr_360px] lg:items-end">
+        <div className="grid gap-10 border-b border-white/10 pb-10">
           <div>
             <NavLink
               to="/"
@@ -418,6 +418,7 @@ export function Footer() {
               분석과 모델링, <br></br>저감방안 수립까지 전 과정을 연결합니다.
             </p>
           </div>
+          {/* RAVIAN 홈페이지 공개 시 주석을 해제하고 상위 그리드 열 설정을 복원합니다.
           <aside className="rounded-2xl border border-sky-100 bg-white p-5">
             <div className="flex items-center justify-between gap-4">
               <img
@@ -436,6 +437,7 @@ export function Footer() {
               기능과 운영 정보를 담은 웹페이지를 준비 중 입니다.
             </p>
           </aside>
+          */}
         </div>
         <div className="grid gap-8 py-10 md:grid-cols-4">
           {menuItems.map((item) => (
