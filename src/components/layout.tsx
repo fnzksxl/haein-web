@@ -456,7 +456,7 @@ export function Footer() {
           ))}
         </div>
         <div className="flex flex-col gap-4 border-t border-white/10 pt-7 text-sm text-neutral-400 md:flex-row md:items-center md:justify-between">
-          <p>부산광역시 수영구 광남로 44 · 서울 · 통영</p>
+          <p>부산광역시 수영구 광남로 44, 남성빌딩 2층/4층 · 서울 · 통영</p>
           <p>Tel. 051-628-3600 · haein@haeineco.kr</p>
           <p>© HAEIN Ecological Research Institute</p>
         </div>
