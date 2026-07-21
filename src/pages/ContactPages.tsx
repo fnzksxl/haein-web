@@ -337,8 +337,9 @@ export function ProjectInquiryPage() {
             id="mail-fallback-description"
             className="mt-3 leading-7 text-slate-500"
           >
-            자동 전송을 사용할 수 없어 작성하신 내용으로 메일 초안을 만들었습니다.
-            아래 내용을 복사해 직접 보내주세요.
+            자동 전송을 사용할 수 없어 작성하신 내용으로 메일 초안을
+            만들었습니다.<br></br>
+            아래 내용을 복사해 직접 보내주시면 감사하겠습니다.
           </p>
 
           <div className="mt-6 grid gap-4 rounded-2xl border border-sky-100 bg-slate-50 p-4 md:p-5">
